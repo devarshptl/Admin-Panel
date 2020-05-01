@@ -1,0 +1,47 @@
+.Login {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/images/auth/bg.jpg);
+    color: white;
+}
+
+.l-width {
+    width: 450px;
+}
+
+@media screen and (max-width:700px) {
+
+    .igg {
+        width: 30px;
+        height: 30px;  
+    }
+
+    .l-width {
+        width: 96%;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .igg {
+        width: 30px;
+        height: 30px;  
+    }
+
+    .in-txt {
+        font-size: 14px;
+    }
+
+    .txt {
+        font-size: 14px;
+    }
+
+    .l-width {
+        width: 96%;
+    }
+}

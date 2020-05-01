@@ -1,0 +1,49 @@
+.Dealers {
+    border-radius: 5px;
+    padding: 20px 18px;
+    background-color: white;
+    overflow: scroll;
+}
+
+.Dealers::-webkit-scrollbar {
+    display: none;
+}
+
+.d-h5 {
+    margin-bottom: 0;
+    color: #505458;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 10px;
+    line-height: 1.4;
+}
+
+.dc-flex, .df-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.df-left {
+    margin: 30px 0px 10px;
+}
+
+.df-left p {
+    margin: 0;
+    color: #575757;
+    height: fit-content;
+}
+
+.df-left select {
+    width: 60px;
+    padding: 5px;
+    margin: 0px 10px;
+}
+
+.dfr-input{
+    padding: 5px 7px;
+    border-radius: 3px;
+    color: rgb(98, 98, 98);
+    border: 1px solid #c7c7c7;
+}

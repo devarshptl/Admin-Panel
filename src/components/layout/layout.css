@@ -1,0 +1,52 @@
+.Layout {
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.l-header {
+    border-bottom: 1px solid rgb(194, 194, 194);
+}
+
+.l-main {
+    display: flex;
+    grid-template-columns: auto auto;
+    height: inherit;
+}
+
+.l-sidebar {
+    width: 298px;
+    flex-grow: 100;
+    height: inherit;
+    background-color: #404e67;
+    overflow: scroll;
+}
+
+.l-sidebar::-webkit-scrollbar {
+    display: none;
+}
+
+.l-content {
+    width: 100%;
+    overflow: scroll;
+    padding: 10px 20px;
+    background-color: rgb(233, 233, 233);
+}
+
+.l-content::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and ( max-width:994px) {
+
+    .Layout {
+        position: relative;
+    }
+
+    .l-sidebar {
+        position: absolute;
+        left: 0;
+        z-index: 999;
+        width: 200px;
+    }
+}

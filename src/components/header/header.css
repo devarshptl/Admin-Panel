@@ -1,0 +1,37 @@
+.Header, .h-left, .h-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h-left {
+    width: 250px;
+    padding: 5px 15px;
+    background-color: #404e67;
+}
+
+.h-left img {
+    min-width: 45px;
+    min-height: 45px;
+    width: calc(3vw);
+}
+
+.h-left button {
+    border: none;
+    background-color: transparent;
+}
+
+.h-right img {
+    width: 40px;
+}
+
+@media screen and ( max-width:994px) {
+    .h-left {
+        width: 200px;
+    }
+
+    .h-right img {
+        width: 37px;
+        margin-right: 5px;
+    }
+}

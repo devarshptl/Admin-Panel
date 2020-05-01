@@ -1,0 +1,11 @@
+.Admin {
+    padding: 30px 20px;
+}
+
+.a-table {
+    overflow: scroll;
+}
+
+.a-table::-webkit-scrollbar {
+    display: none;
+}

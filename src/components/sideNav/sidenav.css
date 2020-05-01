@@ -1,0 +1,36 @@
+.Sidenav {
+    display: flex;
+    flex-direction: column;
+    color: lightgray;
+}
+
+.hover {
+    color: #c7c7c7;
+}
+
+.Sidenav div:hover, .hover:hover, .Sidenav span:hover {
+    color: rgb(128, 128, 128);
+}
+
+.list-group-item {
+    border: none;
+    background: #404f67 !important;
+}
+
+.p-link {
+    color: white;
+}
+
+.p-link:hover {
+    color: orange;
+}
+
+.f-m-2, .f-m-1 {
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+
+.f-m-1 {
+    font-size: 12px;
+}
+
